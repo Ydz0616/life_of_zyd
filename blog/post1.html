@@ -2,9 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Building a minimal research website on GitHub Pages</title>
+  <title>Favorite Quotes — Yuandong Zhang</title>
   <link rel="stylesheet" href="../style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* Local styles for quotes to keep style.css clean */
+    blockquote {
+      margin: 32px 0;
+      padding-left: 18px;
+      border-left: 3px solid #e5e7eb;
+    }
+    .quote-text {
+      font-size: 15px;
+      color: #374151;
+      font-style: italic;
+      line-height: 1.6;
+    }
+    .quote-author {
+      margin-top: 8px;
+      font-size: 13px;
+      color: #9ca3af;
+      font-style: normal;
+    }
+    /* Special styling for the long Roosevelt quote */
+    .long-quote {
+      background-color: #f9fafb;
+      padding: 16px 16px 16px 24px;
+      border-left: 3px solid #d1d5db;
+      border-radius: 4px;
+    }
+  </style>
 </head>
 <body>
 <div class="page-wrapper">
@@ -22,28 +49,81 @@
   </header>
 
   <main>
-    <h1 class="page-title">Building a minimal research website on GitHub Pages</h1>
-    <p class="page-tagline">2025-11-07 · setup, tooling</p>
+    <h1 class="page-title">Favorite Quotes</h1>
+    <p class="page-tagline">Words that resonate.</p>
 
-    <p>
-      I wanted a simple, clean site to present my academic work — no frameworks, no JS bundles, no clutter.
-      This post walks through how I built it with pure HTML/CSS and deployed it via GitHub Pages.
+    <p class="about-intro">
+      A collection of thoughts, reminders, and principles I keep coming back to.
     </p>
 
-    <h3 style="margin-top:24px;">Motivation</h3>
-    <p>
-      I wanted to control every pixel and avoid the complexity of static site generators.
-      The goal was a website that loads instantly, is version-controlled, and can be edited offline.
-    </p>
+    <hr style="border: 0; border-top: 1px solid #f3f4f6; margin: 32px 0;">
 
-    <h3 style="margin-top:24px;">Setup</h3>
-    <ul class="about-list">
-      <li>Create a repo named <code>username.github.io</code>.</li>
-      <li>Push your HTML/CSS files to <code>main</code> branch.</li>
-      <li>Enable GitHub Pages in settings.</li>
-    </ul>
+    <blockquote>
+      <div class="quote-text">“The life you live is the story you tell.”</div>
+      <div class="quote-author">— Val Kilmer Documentary</div>
+    </blockquote>
 
-    <p style="margin-top:24px;">
+    <blockquote>
+      <div class="quote-text">“Parting is such sweet sorrow that I shall say goodnight till it be morrow.”</div>
+      <div class="quote-author">— Shakespeare</div>
+    </blockquote>
+
+    <blockquote class="long-quote">
+      <div class="quote-text" style="font-style: normal;">
+        “It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds... who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly.”
+      </div>
+      <div class="quote-author">— Theodore Roosevelt, <em>Man in the Arena</em></div>
+    </blockquote>
+
+    <blockquote>
+      <div class="quote-text">“To give anything less than your best is to sacrifice the gift.”</div>
+      <div class="quote-text" style="margin-top:8px;">“A lot of people run a race to see who is the fastest. I run to see who has the most guts.”</div>
+      <div class="quote-author">— Steve Prefontaine</div>
+    </blockquote>
+
+    <blockquote>
+      <div class="quote-text">“没有白走的路，一切都是最好的安排。”</div>
+      <div class="quote-author">— 冯校长</div>
+    </blockquote>
+
+    <blockquote>
+      <div class="quote-text">“If everything seems under control, you're not going fast enough.”</div>
+      <div class="quote-author">— Mario Andretti</div>
+    </blockquote>
+
+    <blockquote>
+      <div class="quote-text">“大人虎变，其文炳也；君子豹变，其文蔚也；小人革面，顺以从君也。”</div>
+      <div class="quote-author">— 《周易》 (I Ching)</div>
+    </blockquote>
+
+    <blockquote>
+      <div class="quote-text">“The law was made for one thing alone, for the exploitation of those who don't understand it.”</div>
+      <div class="quote-author">— Bertolt Brecht, <em>The Threepenny Opera</em></div>
+    </blockquote>
+
+    <blockquote>
+      <div class="quote-text">“听其言而观其行。”</div>
+      <div class="quote-author">— 孔子</div>
+    </blockquote>
+
+    <blockquote>
+      <div class="quote-text">“All models are wrong, but some models are useful.”</div>
+      <div class="quote-author">— George E. P. Box</div>
+    </blockquote>
+
+    <blockquote>
+      <div class="quote-text">“It is common sense to take a method and try it; If it fails, admit it frankly and try another. But above all, try something.”</div>
+      <div class="quote-author">— Franklin D. Roosevelt</div>
+    </blockquote>
+
+    <blockquote class="long-quote">
+      <div class="quote-text" style="font-style: normal;">
+        “In a fixed mindset students believe their basic abilities, their intelligence, their talents, are just fixed traits... In a growth mindset students understand that their talents and abilities can be developed through effort, good teaching and persistence. They don't necessarily think everyone's the same or anyone can be Einstein, but they believe everyone can get smarter if they work at it.”
+      </div>
+      <div class="quote-author">— Carol Dweck</div>
+    </blockquote>
+
+    <p style="margin-top:48px;">
       <a href="../blog.html">← Back to Blog</a>
     </p>
   </main>
